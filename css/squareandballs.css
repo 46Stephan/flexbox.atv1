@@ -1,0 +1,32 @@
+.container {
+    height: 800px;
+    width: 1400px;
+    background-color: antiquewhite;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.ball {
+    background-color: orange;
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    border: 2px solid black;
+    align-self: flex-end;
+    margin-left: auto;
+}
+
+.square {
+    background-color: blue;
+    width: 200px;
+    height: 200px;
+    border: 2px solid black;
+    align-items: flex-end;
+}
+
+.bottom {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
